@@ -1,8 +1,18 @@
 # Synthetic Test Data Generation for RAG Pipelines
 
-## Overview
+<h2> LLM & RAG  </h2>
+- Large language models (LLM) can be used in variety of tasks including answering questions, writing essays & etc. But have limitations in tasks requiring external knowledge (for example, our knowledge base that is our private data) and factual information. For ex, if i ask Language model how much I spent this month, LLM wont be able to tel as its not trained on that data. <br/>
+<br/>
+- Retrieval-augmented generation (RAG) integrates external information retrieval into the process of generating responses by Large Language Models (LLMs). <br/>
+![image](https://github.com/padmapria/LM-RAG-Chatbot-over-custom-data/assets/31624929/9fb2e6bd-6998-47fd-aebd-cdd8663eb673)
 
-This repository provides a Python implementation for generating synthetic test data for Retrieval-Augmented Generation (RAG) pipelines using LangChain, OpenAI, and Ragas.  
+<h2> Synthetic data  </h2>
+- Synthetic data refers to artificially generated information that mimics the characteristics of real-world data, but is created through computational methods rather than being collected from actual events or sources. <br/>
+- This simulated data is valuable for testing, training, and - research purposes, as it overcomes privacy concerns, data scarcity, and logistical constraints associated with using genuine data.<br/>
+
+## Project Overview
+
+This repository provides a Python implementation for generating synthetic test data from a private datasource for Retrieval-Augmented Generation (RAG) pipelines using LangChain, OpenAI, and Ragas.  
 The goal is to accelerate RAG pipeline evaluation by reducing data aggregation time and enhancing evaluation depth.
 
 ## Features
